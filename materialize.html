@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Artisan Cured Meats</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+   <style>
+       .header-bg {
+           background-color: #8b0000; /* deep red */
+       }
+       .section-bg {
+           background-color: #f4efe6; /* cream */
+       }
+       .shadow {
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       }
+       .table-header {
+           background-color: #a0522d; /* brown */
+           color: white;
+       }
+   </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="header-bg">
+   <div class="nav-wrapper container">
+      <ul>
+         <li><a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+         <li><a href="products.html">Products</a></li>
+         <li><a href="materialize.html">Materialize</a></li>
+      </ul>
+   </div>
+</nav>
+
+<!-- HERO -->
+<div class="header-bg center-align" style="padding:60px;">
+   <h2 style="color:white;">Artisan Cured Meats</h2>
+   <p style="color:white;">Traditional Italian Style. Small Batch. Authentic Flavor.</p>
+</div>
+
+<!-- ABOUT -->
+<div class="section-bg" style="padding:40px;">
+   <div class="row container">
+      <div class="col s12 m6">
+         <h3>About Us</h3>
+         <p>
+            Artisan Cured Meats is a women-owned business focused on traditional Italian-style curing.
+            Every product is made using simple ingredients and authentic techniques to bring out bold flavor.
+         </p>
+      </div>
+      <div class="col s12 m6">
+         <img src="images/salami.jpg" class="responsive-img shadow">
+      </div>
+   </div>
+</div>
+
+<!-- FAVORITES TABLE -->
+<div class="container" style="margin-top:40px;">
+   <h3>Customer Favorites</h3>
+
+   <table class="striped">
+      <thead class="table-header">
+         <tr>
+            <th>Item</th>
+            <th>Description</th>
+            <th>Price</th>
+         </tr>
+      </thead>
+
+      <tbody>
+         <tr>
+            <td>Salami</td>
+            <td>Classic cured sausage with rich flavor</td>
+            <td>$10</td>
+         </tr>
+         <tr>
+            <td>Prosciutto</td>
+            <td>Thin sliced, perfectly aged cured ham</td>
+            <td>$15</td>
+         </tr>
+         <tr>
+            <td>Pepperoni</td>
+            <td>Spicy cured meat great for charcuterie boards</td>
+            <td>$12</td>
+         </tr>
+      </tbody>
+   </table>
+</div>
+
+<!-- IMAGE SECTION -->
+<div class="row container" style="margin-top:40px;">
+   <div class="col s12 m4">
+      <img src="images/board.jpg" class="responsive-img shadow">
+      <p>Charcuterie Boards</p>
+   </div>
+
+   <div class="col s12 m4">
+      <img src="images/prosciutto.jpg" class="responsive-img shadow">
+      <p>Premium Cuts</p>
+   </div>
+
+   <div class="col s12 m4">
+      <img src="images/salami.jpg" class="responsive-img shadow">
+      <p>Handcrafted Salami</p>
+   </div>
+</div>
+
+<!-- VIDEO -->
+<div class="container center-align" style="margin-top:40px;">
+   <h3>Watch How It's Made</h3>
+   <iframe width="315" height="560"
+   src="https://www.youtube.com/embed/ahTLx3Q_OV0"
+   frameborder="0"
+   allowfullscreen></iframe>
+</div>
+
+<!-- CONTACT -->
+<div class="section-bg" style="padding:40px; margin-top:40px;">
+   <div class="container">
+      <h3>Contact Us</h3>
+
+      <div class="row">
+         <div class="input-field col s12 m6">
+            <input type="text" placeholder="Name">
+         </div>
+
+         <div class="input-field col s12 m6">
+            <input type="email" placeholder="Email">
+         </div>
+
+         <div class="input-field col s12">
+            <textarea class="materialize-textarea" placeholder="Message"></textarea>
+         </div>
+
+         <button class="btn brown">Send</button>
+      </div>
+
+      <div style="margin-top:20px;">
+         <p><b>Location:</b> Oxford, Ohio</p>
+         <p><b>Email:</b> artisancuredmeats@gmail.com</p>
+         <p><b>Phone:</b> 123-456-7890</p>
+      </div>
+   </div>
+</div>
+
+</body>
+</html>
